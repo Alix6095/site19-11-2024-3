@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Easily download YouTube thumbnails using our simple and fast website.">
+    <title>YouTube Thumbnail Downloader</title>
+
+    <!-- Link to Google Fonts for a nice font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>YouTube Thumbnail Downloader</h1>
+        <p>Enter the URL of a YouTube video to get its thumbnail.</p>
+        
+        <!-- Form to enter the URL -->
+        <input type="text" id="youtubeUrl" placeholder="Enter YouTube URL here" />
+        <button onclick="getThumbnail()">Get Thumbnail</button>
+        
+        <!-- Container to display the thumbnail -->
+        <div id="thumbnail" class="thumbnail">
+            <img src="" alt="YouTube Thumbnail" id="thumbnailImage">
+        </div>
+
+        <!-- Google AdSense Ad -->
+        <div class="ads-container">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-XXXXXXX"  <!-- Replace with your AdSense Client ID -->
+                 data-ad-slot="XXXXXXX"            <!-- Replace with your AdSense Slot ID -->
+                 data-ad-format="auto"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+    </div>
+
+    <!-- Footer with explanation -->
+    <div class="footer">
+        <p>How it works?</p>
+        <p>To use this site, simply enter the URL of a YouTube video in the field above. Once the URL is validated, we will display the associated thumbnail that you can download.</p>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="outil.js"></script>
+</body>
+</html>

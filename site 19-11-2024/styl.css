@@ -1,0 +1,86 @@
+/* Base CSS */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fb;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.thumbnail {
+    margin-top: 20px;
+    display: none;
+}
+
+.thumbnail img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Section */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+/* Google Ads styling */
+.ads-container {
+    margin: 20px 0;
+}
+
+.adsbygoogle {
+    display: block;
+    width: 100%;
+    height: 90px;
+}
